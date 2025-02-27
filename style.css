@@ -13,3 +13,18 @@
 body {
   text-align: center;
 }
+
+select {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: red;
+}
+
+label {
+  font-family: sans-serif;
+  font-weight: 40px;
+  font-size: 18px;
+}
