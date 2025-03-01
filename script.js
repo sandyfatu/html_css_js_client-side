@@ -20,8 +20,8 @@ const html = document.querySelector("html");
 const sele = document.querySelector("select");
 
 const bgChange = (bg, txt) => {
-  bg = html.style.background;
-  tst = html.style.color;
+  html.style.background = bg;
+  html.style.color = txt;
 };
 
 html.addEventListener("change", () => {
